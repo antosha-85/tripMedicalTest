@@ -21,6 +21,9 @@ body {
 .navbar {
   background-color: #4f4d53;
   height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .gtd {
@@ -84,15 +87,9 @@ input[type="text"]::placeholder {
   padding-left: 5px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .search_input {
   display: flex;
-  padding: 5px;
+  padding: 7px;
   position: relative;
   justify-content: center;
   text-align: center;
