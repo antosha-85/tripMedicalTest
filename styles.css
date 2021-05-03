@@ -31,7 +31,7 @@ body {
 }
 
 .h1_custom {
-  font-size: 100px;
+  font-size: 80px;
   color: #4f4d53;
   font-weight: 900;
   font-family: Roboto-Regular;
@@ -100,7 +100,7 @@ input[type="text"]::placeholder {
   padding: 5px;
 }
 
-.heading {
+.heading1 {
   background: url(/media/img_hero.jpg);
   height: 300px;
   background-position: center; /* Center the image */
@@ -108,7 +108,7 @@ input[type="text"]::placeholder {
   background-size: 100% 100%;
   position: relative;
   display: flex;
-  align-items: center;
+   align-items: center;
   justify-content: center;
   width: 100%;
 }
@@ -119,7 +119,7 @@ input[type="text"]::placeholder {
 }
 .avatars_wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
   position: absolute;
@@ -130,15 +130,15 @@ input[type="text"]::placeholder {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin: 0 -300px;
+  margin: 0 40px;
 }
 
-.container.description_wrapper {
+.container-fluid.description_wrapper {
   padding: 0 70px;
  }
 
 .team_information {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +150,7 @@ input[type="text"]::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 0 50px;
+  margin: 0 20px;
 }
 .lisa_information img,
 .danielle_information img {
