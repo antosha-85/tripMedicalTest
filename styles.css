@@ -18,7 +18,7 @@ body {
   background-color: white;
 }
 
-.navbar {
+.navbar_custom {
   background-color: #4f4d53;
   height: 48px;
   display: flex;
@@ -30,15 +30,14 @@ body {
   color: white;
 }
 
-h1 {
+.h1_custom {
   font-size: 100px;
   color: #4f4d53;
   font-weight: 900;
   font-family: Roboto-Regular;
-  
 }
 
-h2 {
+.h2_custom {
   font-size: 64px;
   color: #e8be02;
   font-family: Roboto_Regular;
@@ -46,26 +45,27 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.h3_custom {
   font-size: 20px;
   color: #e8be02;
   font-weight: 900;
   font-family: Roboto_Regular;
 }
 
-h4 {
+.h4_custom {
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
   font-family: Roboto_Regular;
 }
 
-p {
+.p_custom {
   font-size: 20px;
   color: #4f4d53;
   font-weight: 400;
   font-family: Roboto_Regular;
   text-align: justify;
+  margin-bottom: 0;
 }
 
 input {
@@ -133,10 +133,9 @@ input[type="text"]::placeholder {
   margin: 0 -300px;
 }
 
-.description_wrapper {
-  padding: 30px 400px 0;
-  justify-content: center;
-}
+.container.description_wrapper {
+  padding: 0 70px;
+ }
 
 .team_information {
   margin-top: 50px;
@@ -160,9 +159,9 @@ input[type="text"]::placeholder {
   height: 75px;
   margin-right: 20px;
 }
-.lisa_information h4, 
+.lisa_information h4,
 .danielle_information h4 {
-  color: #e8be02;;
+  color: #e8be02;
 }
 
 .yellow_band {
@@ -189,5 +188,5 @@ footer {
 }
 
 .join_us {
-  margin-top: 20px
+  margin-top: 20px;
 }
