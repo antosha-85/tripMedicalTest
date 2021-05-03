@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #4f4d53;
+    height: 48px;
+}
+
+.gtd {
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    color: #4f4d53;
+    font-weight: 900;
+    font-family: Roboto_Regular;
+}
+
+h2 {
+    font-size: 64px;
+    color: #E8BE02;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 20px;
+    color: #E8BE02;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    color: #4F4D53;
+    font-weight: 400;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: black;
+}
+
+input[type="text"]
+{
+    font-size: 12px;
+}
+
+input[type="text"]::placeholder
+{
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search_input {
+    display: flex;
+    padding: 5px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.search_bar {
+padding: 5px;
+}
+
+.fa-search {
+    color: white;
+    position: relative;
+    background-color: black;
+    left: -140px;
+    top: 0;
+}
+
+/* yellow band above footer 12px #e8be02 */
+/* footer 320px #4f4d53 */
