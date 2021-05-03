@@ -1,110 +1,177 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: Roboto_Regular;
-    src: url('assets/fonts/Roboto-Regular.ttf');
+  font-family: Roboto_Regular;
+  src: url("assets/fonts/Roboto-Regular.ttf");
 }
 
-
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar {
-    background-color: #4f4d53;
-    height: 48px;
+  background-color: #4f4d53;
+  height: 48px;
 }
 
 .gtd {
-    color: white;
+  color: white;
 }
 
 h1 {
-    font-size: 100px;
-    color: #4f4d53;
-    font-weight: 900;
-    font-family: Roboto_Regular;
+  font-size: 100px;
+  color: #4f4d53;
+  font-weight: 900;
+  font-family: Roboto_Regular;
 }
 
 h2 {
-    font-size: 64px;
-    color: #E8BE02;
-    font-weight: 900;
+  font-size: 64px;
+  color: #e8be02;
+  font-family: Roboto_Regular;
+  font-weight: 900;
+  text-align: center;
 }
 
 h3 {
-    font-size: 20px;
-    color: #E8BE02;
-    font-weight: 900;
+  font-size: 20px;
+  color: #e8be02;
+  font-weight: 900;
+  font-family: Roboto_Regular;
 }
 
 h4 {
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: Roboto_Regular;
 }
 
 p {
-    font-size: 20px;
-    color: #4F4D53;
-    font-weight: 400;
+  font-size: 20px;
+  color: #4f4d53;
+  font-weight: 400;
+  font-family: Roboto_Regular;
+  text-align: justify;
 }
 
-input, button
-{
-    color: #fff;
-    font-family: Nunito;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    background-color: black;
+input {
+  color: #fff;
+  font-family: Nunito;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: black;
 }
 
-input[type="text"]
-{
-    font-size: 12px;
+input[type="text"] {
+  font-size: 14px;
 }
 
-input[type="text"]::placeholder
-{
-    color: white;
-    background-color: black;
-    padding-left: 30px;
+input[type="text"]::placeholder {
+  color: #b8b8b8;
+  background-color: black;
+  padding-left: 5px;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .search_input {
-    display: flex;
-    padding: 5px;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    background-color: black;
+  display: flex;
+  padding: 5px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
 }
 
 .search_bar {
-padding: 5px;
+  padding: 5px;
 }
 
-.fa-search {
-    color: white;
-    position: relative;
-    background-color: black;
-    left: -140px;
-    top: 0;
+.heading {
+  background: url(/media/img_hero.jpg);
+  height: 300px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
+.avatars {
+  position: relative;
+  margin-bottom: 90px;
+}
+.avatars_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: -75px;
+  left: 0;
+}
+.avatars img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 -300px;
+}
+
+.description_wrapper {
+  padding: 30px 400px 0;
+  justify-content: center;
+}
+
+.team_information {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lisa_information,
+.danielle_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 50px;
+}
+.lisa_information img,
+.danielle_information img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+.lisa_information h4, 
+.danielle_information h4 {
+  color: #e8be02;;
+}
+
+.yellow_band {
+  margin-top: 60px;
+  background-color: #e8be02;
+  width: 100%;
+  height: 12px;
+}
 /* yellow band above footer 12px #e8be02 */
 /* footer 320px #4f4d53 */
